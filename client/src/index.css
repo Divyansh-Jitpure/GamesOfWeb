@@ -11,12 +11,11 @@ body {
 }
 
 .analog-btn {
-    box-shadow: #2B2C28 3px 3px 0px;
-    border-radius: 5px;
+    box-shadow: #2B2C28 6px 6px 6px;
     transition: transform 100ms, box-shadow 100ms;
 }
 
 .analog-btn:active {
     box-shadow: 0px 0px 0px;
-    transform: translatey(3px) translatex(3px);
+    transform: translatey(6px) translatex(6px);
 }
