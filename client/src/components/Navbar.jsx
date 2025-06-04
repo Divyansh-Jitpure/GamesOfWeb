@@ -22,10 +22,11 @@ const Navbar = () => {
       </span>
       <span>
         <svg
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="m-4 h-12 cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 10 10"
-          stroke="#000"
+          stroke="#131515"
           stroke-width=".8"
           fill="rgba(0,0,0,0)"
           stroke-linecap="round"

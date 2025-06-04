@@ -10,9 +10,9 @@ const NavDrawer = () => {
   return (
     <div
       ref={drawerRef}
-      className={`fixed top-20 right-3 z-10 w-[95%] rounded-b-xl bg-slate-600/40 py-2 text-center shadow-md backdrop-blur-md md:hidden ${isMenuOpen ? "block" : "hidden"} `}
+      className={`fixed top-20 right-3 z-10 w-[95%] rounded-b-xl bg-slate-600/40 py-2 text-center shadow-md backdrop-blur-md ${isMenuOpen ? "block" : "hidden"} `}
     >
-      <ul className="flex flex-col items-center space-y-2 [&>li]:w-full [&>li]:py-1 [&>li]:text-xl [&>li]:font-semibold">
+      <ul className="flex flex-col items-center space-y-2 [&>li]:w-full [&>li]:py-1 [&>li]:text-2xl [&>li]:text-[#131515] [&>li]:active:bg-slate-600/5 [&>li]:active:backdrop-blur-md">
         <li onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <Link to={"/"}>Home</Link>
         </li>
