@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+body {
+    @apply bg-[#43d6c0]
+}
+
 .analog-btn {
     box-shadow: #683512 3px 3px 0px;
     border-radius: 5px;
