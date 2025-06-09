@@ -47,11 +47,14 @@ const Piano = () => {
   return (
     <div
       ref={elementRef}
-      className={`flex h-screen items-center justify-center ${isFullscreen ? "rotate-0" : "scale-[0.7] rotate-90"}`}
+      className={`flex h-screen items-center justify-center ${isFullscreen ? "rotate-90" : "scale-[0.7]"}`}
     >
-      <div className="piano relative">
+      <div className="piano relative mt-10">
+        <span className="absolute top-1/2 -left-18 -rotate-90 text-4xl">
+          Games Of Web
+        </span>
         <button
-          className="absolute top-0 right-0 m-4 text-4xl"
+          className="absolute top-0 left-0 m-4 text-4xl"
           onClick={toggleFullscreen}
         >
           {isFullscreen ? <AiOutlineFullscreenExit /> : <AiOutlineFullscreen />}
