@@ -20,18 +20,6 @@ body {
     transform: translatey(6px) translatex(6px);
 }
 
-.piano {
-    /* height: 390px; */
-    padding: 30px 30px 30px 90px;
-    background: linear-gradient(to bottom, #ff6666 0%, #ad2727 100%);
-    border-radius: 10px;
-
-}
-
-.keys {
-    position: relative;
-    display: flex-column;
-}
 
 .white-key {
     height: 68px;
@@ -59,8 +47,8 @@ body {
     background-color: black;
     border: 1px solid #000;
     /* position: absolute; */
-    box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.2) inset, 0 -5px 2px 3px rgba(0, 0, 0, 0.6) inset, 0 2px 4px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(45deg, #555 100%, #222 0%);
+    box-shadow: -5px 0 2px 3px rgba(0, 0, 0, 0.6) inset, -1px -1px 2px rgba(255, 255, 255, 0.2) inset, 2px 0 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #555 0%, #222 100%);
     background-color: #000;
     position: absolute;
 }
@@ -68,8 +56,8 @@ body {
 .black-key:active {
     height: 37.5px;
     width: 159px;
-    box-shadow: 0 -2px 2px 3px rgba(0, 0, 0, 0.6) inset, -1px -1px 2px rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(to right, #444 0%, #222 100%);
+    box-shadow: -2px 0 2px 3px rgba(0, 0, 0, 0.6) inset, -1px -1px 2px rgba(255, 255, 255, 0.2) inset, 1px 0 2px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to top, #444 0%, #222 100%);
 }
 
 .black-key:nth-child(2) {
@@ -80,8 +68,8 @@ body {
     top: 117px;
 }
 
-.black-key:nth-child(6) {
-    top: 186px;
+.black-key:nth-child(7) {
+    top: 252px;
 }
 
 .black-key:nth-child(9) {
@@ -100,8 +88,8 @@ body {
     top: 594px;
 }
 
-.black-key:nth-child(18) {
-    top: 662px;
+.black-key:nth-child(19) {
+    top: 728px;
 }
 
 .black-key:nth-child(21) {
