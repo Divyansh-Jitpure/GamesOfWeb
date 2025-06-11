@@ -73,9 +73,9 @@ const Piano = () => {
   return (
     <div
       ref={elementRef}
-      className={`flex h-screen items-center justify-center ${isFullscreen ? "rotate-90" : "scale-[0.75]"}`}
+      className={`flex h-screen items-center justify-center sm:rotate-90 ${isFullscreen ? "scale-[0.8] sm:scale-[1.2]" : "scale-[0.7] sm:scale-[0.9] 2xl:scale-[1.2]"}`}
     >
-      <div className="relative rounded-xl bg-linear-to-b from-[#ff6666] to-[#ad2727] p-[30px_30px_30px_90px] shadow-lg">
+      <div className="relative mt-20 rounded-xl bg-linear-to-b from-[#ff6666] to-[#ad2727] p-[30px_30px_30px_90px] shadow-lg">
         <span className="absolute top-1/2 -left-18 -rotate-90 text-4xl text-rose-200/70">
           Games Of Web
         </span>
